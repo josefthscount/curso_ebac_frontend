@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento digital</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Bungee&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+    <header>
+        <img src="./midia/7145626.png" alt="Serviço de atendimento">
+        <h1>Agendamento Digital</h1>
+    </header>
+        <form id="form">
+                <input id="seu-nome" type="text" required placeholder="Seu Nome"/>
+                <input id="numero-de-telefone" type="tel" required placeholder="Numero de telefone"/>
+                <button type="submit"> cadastrar +</button>
+        </form>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>
+                        Nome da Pessoa
+                    </th>
+                    <th>Numero anotado</th>
+                    <th>Cadastrado?</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Nome do usuario</td>
+                    <td>---</td>
+                    <td><span class="resultado cadastrado">cadastrado</span></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
